@@ -50,6 +50,16 @@ chmod +x start.sh
 
 This will automatically set up the backend virtual environment, install dependencies, and start both the backend and frontend servers.
 
+## Stopping the Servers
+
+To stop both the frontend and backend servers, you can use the `stop.sh` script.
+
+Run the following command:
+
+```bash
+./stop.sh
+```
+
 ## Usage
 
 1. Open the frontend in your browser (default: `http://localhost:5173`).
